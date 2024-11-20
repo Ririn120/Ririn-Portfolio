@@ -1,0 +1,221 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}
+
+.top-btn .nav-btn {
+    padding: 10px 15px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.top-btn .nav-btn:hover {
+    background-color: #ff4500; /* Darker tomato on hover */
+}
+
+/* Home Section Styles */
+.home {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.home-content {
+    flex: 1;
+}
+
+.home-img {
+    flex: 1;
+}
+
+.home-img img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4500; /* Darker tomato on hover */
+}
+
+/* About Section Styles */
+.about {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.about-img {
+    flex: 1;
+}
+
+.about-content {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.heading span {
+    color: #ff6347;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.portfolio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row {
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.row img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main-row {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.row:hover .main-row {
+    opacity: 1;
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-box input,
+textarea {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4500; /* Darker tomato on hover */
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer .social a {
+    margin: 0 10px;
+    color: #
